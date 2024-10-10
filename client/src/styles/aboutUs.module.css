@@ -1,0 +1,131 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  height: 520px;
+  margin: 0 auto;
+  gap: 60px;
+}
+.title h1 {
+  color: #000;
+  font-family: "Asap";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 500;
+}
+.title p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  color: #00000060;
+}
+
+.greenText {
+  color: #01ab31;
+  font-family: Asap;
+  font-size: 96px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.hero img {
+  object-fit: cover;
+  width: 100%;
+  height: 520px;
+}
+
+.coupon {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  gap: 30px;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  padding: 24px 18px;
+}
+
+.slogan {
+  margin: 60px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.sloganTitle {
+  color: #000;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sloganText {
+  min-width: 680px;
+  color: #000;
+  text-align: center;
+  font-family: "Asap";
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 40px;
+  padding: 14px 36px;
+}
+.desc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+}
+.desc h1 {
+  font-size: 40px;
+}
+.desc p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  line-height: 1.25rem;
+}
+
+.partner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  width: 100%;
+  padding: 24px 0;
+  background: #fff;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.place {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  gap: 4px;
+}
+p.place {
+  font-size: 24px;
+  font-weight: bold;
+}

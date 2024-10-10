@@ -1,0 +1,139 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bigbox {
+  max-width: 860px;
+  height: auto;
+  padding: 24px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 10px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 24px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  padding: 8px 0;
+}
+.desc h2 {
+  font-size: 20px;
+}
+.desc p {
+  font-size: 18px;
+}
+.eco {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+.boxuser {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.boxuser img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 16px;
+  flex: 1;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+}
+.list button {
+  padding: 14px 52px;
+  border-radius: 60px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: rgb(0, 132, 255);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.config {
+  position: relative;
+  text-align: center;
+}
+
+.btnElement {
+  display: flex;
+  justify-content: space-around;
+}
+
+.editBtn,
+.deleteBtn {
+  position: absolute;
+  top: 20px; /* Adjust top position as needed */
+  left: 95%; /* Center horizontally */
+  transform: translateX(-100%);
+  z-index: 1; /* Ensure buttons are above other content */
+  padding: 8px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.editBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: rgb(175, 255, 180);
+  color: green;
+}
+
+.deleteBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  top: 60px; /* Adjust top position for Delete button */
+  background-color: rgb(255, 175, 175);
+  color: red;
+}
+
+.editBtn:hover,
+.deleteBtn:hover {
+}

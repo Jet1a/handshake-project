@@ -1,0 +1,51 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.input {
+  margin: 20px 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.input input {
+  display: flex;
+  width: 295px;
+  height: 34px;
+  padding: 5px 13px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 295px;
+  height: 34px;
+  padding: 5px 13px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  background: #fff;
+}
+.dropdownContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropdownContainer select {
+  width: 120px;
+  height: 35px;
+  padding: 5px 8px;
+  border-radius: 2px;
+  border: 1px solid var(--Neutral-Dark, #91929d);
+  background: var(--Neutral-White, #fff);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.grid a {
+  text-decoration: none;
+  color: inherit;
+}

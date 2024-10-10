@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 16px;
+  margin: 12px 0;
+  width: 400px;
+}
+.desc {
+  align-self: start;
+}
+.card img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+}
+.button {
+  font-family: "Inter";
+  font-size: 12px;
+  align-self: flex-start;
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+}

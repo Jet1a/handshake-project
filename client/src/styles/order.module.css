@@ -1,0 +1,79 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 20px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin: 40px 0;
+  gap: 40px;
+  padding: 32px;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.desc h1 {
+  font-size: 30px;
+}
+
+.desc span,
+label {
+  font-family: "Inter";
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.left {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.left img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+.button button {
+  display: flex;
+  width: 100px;
+  height: 52px;
+  padding: 16px 54px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 62px;
+  background: #000;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.error {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: red;
+}

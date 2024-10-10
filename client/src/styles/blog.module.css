@@ -1,0 +1,32 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.title {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 42px;
+}
+.titleDesc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+.titleDesc a {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+}

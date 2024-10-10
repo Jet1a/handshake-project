@@ -1,0 +1,49 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 610px;
+  height: 240px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #fff -2.25%, #ff4c4c 132.5%);
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.25);
+  padding: 32px 14px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: start;
+  justify-content: center;
+  padding: 0 24px;
+}
+.left h1 {
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: 700px;
+}
+.bottle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-size: 24px;
+  font-family: "Inter";
+  font-weight: 700;
+}
+.sub {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.right{
+   padding: 0 20px;
+}
+.right img{
+   width: 165px;
+   height: 155px;
+}
